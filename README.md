@@ -5,6 +5,12 @@
  
 Desarrollo y optimización de consultas en MySQL.
 
+# Contenido Repositorio
+
+- Código para la creación de la base de datos.
+- Análisis inicial de ventas mediante consultas sencillas.
+- Análisis más profundo mediante consultas más avanzadas utilizando Ctes, procedimientos almacenados, window functions y consultas recursivas.
+
 
 # Contexto
 
@@ -25,10 +31,12 @@ Se ha creado la base de datos mediante un modelo 'entidad-relación' que conecta
 Cada una de estas entidades tiene atributos específicos y se interrelaciona con otras entidades de manera coherente y lógica.
 Por ejemplo, la tabla 'Producto' se vincula a la tabla 'Categoría', lo que nos permite clasificar los productos en categorías específicas. De manera similar, la tabla 'Cliente' se conecta a la tabla 'Factura' estableciendo una relación que refleja la relación entre los clientes y sus transacciones.
 
+Se han utilizado 'Triggers' que permiten actualizar las tablas cuando incluyamos un nuevo registro.
 
 
 # Objetivo
 
+Almacenar los datos en esta base de datos, nos permite gestionar los mismos y realizar análisis que nos proporcionen una visión clara del rendimiento del negocio. 
 
 Mediante el uso de consultas SQL vamos a identificar los productos más vendidos, el rendimiento de las ventas en distintos períodos y una serie de indicadores clave de rendimiento (KPI).
 
