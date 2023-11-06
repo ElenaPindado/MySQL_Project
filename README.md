@@ -8,9 +8,9 @@ Desarrollo y optimización de consultas en MySQL.
 # Contenido Repositorio
 
 - Código para la creación de la base de datos.
-- Análisis inicial de ventas mediante consultas sencillas.
-- Análisis más profundo mediante consultas más avanzadas utilizando Ctes, procedimientos almacenados, window functions y consultas recursivas.
-
+- Análisis inicial de ventas mediante consultas sencillas utilizando funciones de agregación, filtros, agrupamiento, ordenación y joins.
+- Análisis más profundo mediante consultas más avanzadas utilizando Vistas, múltiples joins, subqueries, Ctes, procedimientos almacenados, funciones, window functions y consultas recursivas.
+- Triggers y procedimientos almacenados.
 
 # Contexto
 
